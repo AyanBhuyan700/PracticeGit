@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title= title
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet" href="/css/style.css")
+    body
+        .container
+            h1 Contact Records
+            p
+                a.button(href="/update-cobj") Add to this table
+            table
+                thead
+                    tr
+                        th First Name
+                        th Last Name
+                        th Email
+                tbody
+                    each record in records
+                        tr
+                            td= record.properties.firstname
+                            td= record.properties.lastname
+                            td= record.properties.email

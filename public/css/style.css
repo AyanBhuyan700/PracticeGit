@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #f5f8fa; margin: 0; }
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+th { background: #ff7a59; color: #fff; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input[type="text"], input[type="email"] { width: 100%; padding: 8px; box-sizing: border-box; }
+input[type="submit"], .button {
+  margin-top: 16px; padding: 8px 16px; background: #ff7a59; color: #fff;
+  border: 0; border-radius: 4px; text-decoration: none; cursor: pointer;
+}
